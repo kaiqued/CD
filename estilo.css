@@ -7,7 +7,7 @@
 }
 .semdrop{
 	border-radius: 10px;
-    background-color: #330000;
+    background-color: #00867d;
 	width: 16.6%;
 	border-left: 1px solid white;
 	border-right:1px solid white;
@@ -27,7 +27,7 @@
 }
 
 .listitem a:hover, .dropdown:hover .dropbtn {
-    background-color: #cc0000;
+    background-color: #428e92;
 	border-radius: 10px;
 	width : 87%;
 	text-align: left;
@@ -40,7 +40,7 @@
 	border-right:1px solid white;
 	width:16.5%;
 	border-radius: 10px;
-	background-color: #330000;
+	background-color: #00867d;
 	font-family: sans-serif;
 }
 
@@ -72,8 +72,10 @@
 }
 
 .icone{
-	border-radius: 30px;	
-	float: right;
+	border-radius: 50%;	
+	float: left;
+	padding: 10px;
+	
 }
 h1{
 	float: center;
@@ -85,6 +87,8 @@ h1{
 }
 .cabecalho{
 	padding-bottom: 15px;
+	color:white;
+	background-image: url('fundo.jpg');
 }
 
 .titulo{
@@ -127,7 +131,11 @@ h1{
 	
 }
 
-
+.cabecalhoindex{
+	background-image: url('fundo.jpg');
+	color: white;
+	
+}
 
 .fotoperfil{
 	float:right;
@@ -148,9 +156,16 @@ h1{
 	height: 200px;
 }
 
+.fotosperf{
+	border-radius:50%;
+	padding-top: 18px;
+}
 
-
-
+.selecione{
+	font-size: 25px;
+	text-indent: 4em;
+	
+}
 
 h1, h2, h3, h4, h5, h6{
   margin-bottom: 0.5rem;
