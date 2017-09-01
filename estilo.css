@@ -1,4 +1,4 @@
-ul {
+.lista{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ ul {
 	font-family: sans-serif;
 	
 }
-li {
+.listitem {
     float: left;
 }
 
-li a, .dropbtn {
+.listitem a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.listitem a:hover, .dropdown:hover .dropbtn {
     background-color: #cc0000;
 	border-radius: 10px;
 	width : 87%;
@@ -34,7 +34,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	padding: 12px 16px;
 }
 
-li.dropdown {
+.listitem.dropdown {
     display: inline-block;
 	border-left: 1px solid white;
 	border-right:1px solid white;
@@ -86,6 +86,68 @@ h1{
 .cabecalho{
 	padding-bottom: 15px;
 }
+
+.titulo{
+	text-align: center;
+}
+
+.minibio{
+	font-size: 23px;
+	text-indent:4em;
+	text-align:left;
+	width: 70%;
+	
+}
+.normal{
+	text-align: left;
+	
+}
+
+.caract{
+	font-size: 20px;
+	padding-left: 130px;
+	
+}
+
+.divisao{
+	padding-left: 70px;
+	
+	
+}
+
+.descr{
+	padding-left: 150px;
+	
+	
+}
+
+.disciplina{
+	font-size: 22px;
+	text-align: center;
+	
+}
+
+
+
+.fotoperfil{
+	float:right;
+	padding: 80px 90px 40px 15px;
+	width: 20%;	
+	align-content: right;
+}
+
+.detalhado{
+	font-size: 18px;
+	text-indent: 4em;
+	
+}
+
+.container{
+	padding: 20px;
+	width: 87%;
+	height: 200px;
+}
+
 
 h1, h2, h3, h4, h5, h6{
   margin-bottom: 0.5rem;
