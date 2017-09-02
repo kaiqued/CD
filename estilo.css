@@ -71,6 +71,11 @@
     display: block;
 }
 
+.home{
+	border-radius: 50%;
+	float: right;
+	padding: 10px;
+}	
 .icone{
 	border-radius: 50%;	
 	float: left;
@@ -207,7 +212,7 @@ h6 {
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bold;
-	font-weight: 1000;
+	font-weight: 900;
 }
 
 hr.style13 {
