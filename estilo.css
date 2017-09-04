@@ -85,6 +85,13 @@ html, body  {
     display: block;
 }
 
+.home{
+	border-radius: 50%;
+	float: right;
+	padding: 10px;
+}
+
+
 .icone{
 	border-radius: 50%;	
 	float: left;
