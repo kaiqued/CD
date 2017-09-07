@@ -1,15 +1,14 @@
 html, body  {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	outline: 0;
-	vertical-align: baseline;
+	
 }
 
-
-
-
-
+.fotos:{
+	float: right;
+	opacity: 0.5;
+	
+}
 .lista{
     list-style-type: none;
     margin: 0;
@@ -35,15 +34,16 @@ html, body  {
 .listitem a, .dropbtn {
     display: inline-block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: normal;
 }
 
 .listitem a:hover, .dropdown:hover .dropbtn {
     background-color: #428e92;
 	border-radius: 10px;
-	width : 87%;
+	width : 100%;
 	text-align: left;
 	padding: 12px 16px;
 }
@@ -86,9 +86,9 @@ html, body  {
 }
 
 .home{
-	border-radius: 50%;
 	float: right;
 	padding: 10px;
+	margin-top: 30px;
 }
 
 
@@ -96,6 +96,9 @@ html, body  {
 	border-radius: 50%;	
 	float: left;
 	padding: 10px;
+	width:75px ;
+	margin-left: 30px;
+	margin-top: 10px;
 	
 }
 h1{
@@ -114,19 +117,21 @@ h1{
 	
 }
 
-.titulo{
-	text-align: center;
-}
+
 
 .principal{
 	background-image: url('fundo.jpg');
 }
 
 .minibio{
-	font-size: 23px;
+	font-size: 16px;
 	text-indent:4em;
 	text-align:left;
-	width: 70%;
+	width: 80%;
+	font-family: 'Merriweather', serif;
+	padding-top:15px;
+	padding-bottom: 70px;
+	padding-left: 40px;
 	
 }
 .normal{
@@ -135,22 +140,28 @@ h1{
 }
 
 .caract{
-	font-size: 20px;
+	font-size: 13px;
 	padding-left: 130px;
+	font-family: 'Merriweather', serif;
+	
 	
 }
 
 .divisao{
 	padding-left: 70px;
+	font-family: 'Merriweather', serif;
 	
 	
 }
 
 .descr{
 	padding-left: 150px;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
 	
 	
 }
+
 
 .disciplina{
 	font-size: 22px;
@@ -161,19 +172,27 @@ h1{
 .cabecalhoindex{
 	background-image: url('fundo.jpg');
 	color: white;
+	font-family: 'Fira Sans', sans-serif;
 	
 }
 
 .fotoperfil{
 	float:right;
-	padding: 80px 90px 40px 15px;
+	padding: 88px 90px 40px 5px;
 	width: 20%;	
 	align-content: right;
+	margin-left:5px;
+}
+
+.colch{
+	float:right;
+	padding-top: 75px;
 }
 
 .detalhado{
 	font-size: 18px;
 	text-indent: 4em;
+	font-family: 'Merriweather', serif;
 	
 }
 .selec{
@@ -202,6 +221,7 @@ h1{
 .selecione{
 	font-size: 25px;
 	text-indent: 4em;
+	font-family: 'Merriweather', serif;
 	
 }
 
@@ -242,10 +262,10 @@ h6 {
 
 
 .titulo {
-	text-align: center;
-	font-family: sans-serif;
+	text-align: left;
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: bold;
-	font-weight: 1000;
+	padding-left: 30px;
 }
 
 hr.style13 {
@@ -280,12 +300,100 @@ hr.style13 {
 
 .citacao{
 	text-align: center;	
-	font-size: 23px;
+	font-size: 26px;
+	font-family: 'Merriweather', serif;
 }
 
 
 
 .quote{
-	font-family: 'Dancing Script', cursive;
+	font-style: italic;
 	font-size: 30px;
 }	
+
+.cont{
+	background-color: white;
+}
+
+
+.button{
+	background-color: #ff6405; /* Green */
+	border: none;
+	color: black;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	border-radius: 8px;
+	margin-left: 60px;
+} 
+
+.button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+.slide{
+	display: none;
+}
+
+*{box-sizing : border-box;}
+
+
+.slides-container{
+	padding-top: 10px;
+	position:relative;
+	max-width: 700px;
+	margin:auto;
+	
+}
+
+.dot{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	margin:0 2px;
+	display: inline-block;
+	background-color: #bbb;
+	transition: background-color 0.6s ease;
+}
+
+.ativo{
+	background-color: #717171;
+}
+
+.imagens{
+	width:500px;
+	height:280px;
+}
+
+.text {
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	opacity: 0.8;
+	font-size: 25px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.td{
+	float:left;
+	padding-left: 50px;
+}
+
+.fotoproj{
+	float:right;
+	padding: 80px 90px 40px 5px;
+	width: 25%;	
+	align-content: right;
+	margin-left:5px;
+}

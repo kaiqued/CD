@@ -5,17 +5,18 @@
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<title> Sobre Mim </title>
 		<meta charset = 'utf-8'>
-		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Dancing+Script|Merriweather+Sans|Nothing+You+Could+Do|Paytone+One" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Merriweather|Fira+Sans" rel="stylesheet"> 
 	</head>
 	<body>
 		<div class = 'principal'>
 			<div class = 'cabecalho'>
+				
 				<a class = 'home' id= 'voltar' href = 'index.html'>
-					<img src = "home.jpg" width= 60px>
+					<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 				</a>
 				<a href='Aluno.html'>
-					<img src = "Leca.jpg" class = 'icone' width = 60px />
+					<img src = "Leca.jpg" class = 'icone'/>
+				
 				</a>
 				<h1><b>Alessandra Blucher</b> - Engenharia da Computação</h1>
 			</div>
@@ -24,7 +25,7 @@
 				  <li class="dropdown listitem">
 					<a href="javascript:void(0)" class="dropbtn">Âmbito Social</a>
 					<div class="conteudo-dropdown">
-					  <a href="case.html">Case (Debate)</a>
+					  <a href="case_pre.html">Case (Debate)</a>
 					  <a href="artigo.html">Mini Artigo Científico</a>
 					</div>
 				  </li>
@@ -38,8 +39,8 @@
 				  <li class="dropdown listitem">
 					<a href="javascript:void(0)" class="dropbtn">Modelagens</a>
 					<div class="conteudo-dropdown">
-					  <a href="pro1mod.html">Modelagem de um Sistema Populacional</a>
-					  <a href="pro2mod.html">Modelagem de um Sistema Termodinâmico</a>
+					  <a href="pro1mod_pre.html">Modelagem de um Sistema Populacional</a>
+					  <a href="pro2mod_pre.html">Modelagem de um Sistema Termodinâmico</a>
 					  <a href="Projeto.html">Modelagem de um Sistema Mecânico</a>
 					</div>
 				  </li>
@@ -65,24 +66,60 @@
 				</ul>
 			</div>
 		</div>	
+		<div class = 'cont'>
+			
 			<img class = 'fotoperfil' src='Leca.jpg'>
-			<div class = 'titulo'>
-				<p><h1> Sobre Mim</h1></p>
-			</div>
+			<img class = 'colch' src='colch.png' width = 20px height = 290px>
+			<p><h1 class= 'titulo'> Sobre Mim</h1></p>
 			<div class =  'container'>
 			<div class = 'minibio'>
-					<p style = "text-indent:3em">Olá, meu nome é (nome da pessoa), tenho x anos e sou de (cidade, estado). (Aqui, o dono da página poderá falar sobre qualquer coisa que julgar pertinente, como gostos, hobbies, estilo de vida, rotina...</p>
+					<p style = "text-indent:3em">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo velit, iaculis sed tincidunt vitae, pharetra ut ex. Praesent vel volutpat quam, quis pharetra massa. Pellentesque pulvinar auctor ante, et porttitor est malesuada sed. Aenean mollis libero vel magna porttitor, sed tristique tellus bibendum. Nam sit amet ullamcorper nunc. Nunc iaculis a mauris eu blandit. Maecenas tristique pharetra vulputate. Ut aliquam dui ac nisl fermentum, id gravida metus venenatis. Etiam convallis dui non pulvinar mattis. </p>
 			</div>
 			
-				<ul class = 'caract'> 
-				<li> gosta de ...</li>
-				<li> estudou no colégio L</li>
-				<li>formou-se no (grau) em... no ano ____</li>
-				</ul>
+			<hr class='style13' style= 'margin:10px; width:100%;'></hr>
+			
+			<a class = 'button' onclick="topFunction()" href = '#'>Formação Acadêmica</a>
+			<a class = 'button'  href = '#'>Línguas</a>
+			<a class = 'button' href = '#'>Hobbies</a>
+			<a class = 'button' href = '#'>Atividades extra</a>
+			<a class = 'button' id='2' href = '#'>Informática</a>
+			<hr class='style13' style= 'margin:10px; width:100%;'></hr>
 			
 			<div class = 'detalhado'>
-			<p> Descrição de acordo com a preferência da pessoa. Pode ser também uma citação que a mesma gostar. </p>
+			<p><h4 class = 'divisao' style= 'font-weight: bold;'> Formação Acadêmica: </h4> </p>
+			<p class = 'descr'>Engenharia da Computação - Insper(2017-2021)</p>
+			<p class = 'descr'>Ensino Médio - Colégio X (2014-2016)</p>
+			
+			<p><h4 class = 'divisao' style= 'font-weight: bold;'> Línguas: </h4> </p>
+			<p class = 'descr'>Inglês</p>
+			
+			<p><h4 class = 'divisao' style= 'font-weight: bold;'> Hobbies: </h4> </p>
+			<p class = 'descr'>Esporte 1</p>
+			<p class = 'descr'>Ler</p>
+			
+			<p><h4 class = 'divisao' style= 'font-weight: bold;'> Atividades extra: </h4> </p>
+			<p class = 'descr'>Trabalho voluntário</p>
+			
+			<div id = '1'>
+			<p><h4 class = 'divisao' style= 'font-weight: bold;'> Informática: </h4> </p>
+			<p class = 'descr'>Python</p>
+			<p class = 'descr'>Html</p>
+			<p class = 'descr'>CSS</p>
+			<p class = 'descr'>Javascript</p>
 			</div>
 			</div>
+			</div>
+		<div>
+		<script>
+			function topFunction() {
+			    document.body.scrollTop = 10; // For Chrome, Safari and Opera 
+			    document.documentElement.scrollTop = 10; // For IE and Firefox
+			} 
+			$("#button").click(function() {
+			$('html, body').animate({
+			scrollTop: $("#myDiv").offset().top
+				}, 2000);
+			});
+		</script>
 	</body>
 </html>
