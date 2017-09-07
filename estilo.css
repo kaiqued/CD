@@ -36,7 +36,8 @@ html, body  {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Simplifica';
+	font-size: 20px;
 	font-weight: normal;
 }
 
@@ -148,16 +149,21 @@ h1{
 }
 
 .divisao{
-	padding-left: 70px;
-	font-family: 'Merriweather', serif;
+	padding-left: 30px;
+	font-family: 'Simplifica';
+	font-weight: bold;
+	font-size: 30px;
+	
 	
 	
 }
 
 .descr{
-	padding-left: 150px;
+	padding-left: 70px;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
+	padding-right: 20px;
+	margin-right: 25%;
 	
 	
 }
@@ -165,14 +171,17 @@ h1{
 
 .disciplina{
 	font-size: 22px;
-	text-align: center;
+	text-align: left;
+	padding-left: 30px;
+	font-family: Simplifica;
+	font-size: 30px;
 	
 }
 
 .cabecalhoindex{
 	background-image: url('fundo.jpg');
 	color: white;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Simplifica';
 	
 }
 
@@ -263,7 +272,7 @@ h6 {
 
 .titulo {
 	text-align: left;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Simplifica';
 	font-weight: bold;
 	padding-left: 30px;
 }
@@ -317,17 +326,20 @@ hr.style13 {
 
 
 .button{
-	background-color: #ff6405; /* Green */
+	background-color: #DE1926;
 	border: none;
 	color: black;
 	padding: 14px 40px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 16px;
+	font-family: 'Simplifica';
+	font-size: 20px;
+	font-weight: bold;
 	border-radius: 8px;
 	margin-left: 60px;
+	cursor: pointer;
+	
 } 
 
 .button:hover{
@@ -382,7 +394,7 @@ hr.style13 {
 	bottom: 8px;
 	width: 100%;
 	text-align: center;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Simplifica';
 }
 
 .td{
@@ -396,4 +408,40 @@ hr.style13 {
 	width: 25%;	
 	align-content: right;
 	margin-left:5px;
+}
+
+
+@font-face{
+	font-family: 'Hipstelvetica Light';
+	src: url('Hipstelvetica Light.ttf');
+}
+@font-face{
+	font-family: 'Simplifica';
+	src: url('SIMPLIFICA Typeface.ttf');
+}
+
+.logo{
+	font-family: 'Hipstelvetica Light';
+	font-size: 36px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 5px;
+	margin: 10px;
+	width: 150px;
+	float: left;
+	
+}
+
+.cab{
+	font-family:'Simplifica';
+	font-size: 50px;
+	text-align: center;
+	padding-top: 40px ;
+	padding-bottom: 20px;
+}
+
+.voltar{
+	margin-left: 40%;
+	margin-top: 5px;
+	margin-bottom: 5%;
 }
