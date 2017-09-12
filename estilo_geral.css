@@ -1,0 +1,113 @@
+
+/********************* Reset em algumas configurações e colocando fundo *********************************/
+
+html, body  {
+	margin: 0;
+	padding: 0;
+}
+	
+body{
+	background-image: url('fundo.jpg');
+	background-repeat: no-repeat;
+	
+}
+
+/************************************* Fontes escolhidas ************************************************/
+
+@font-face{
+	font-family: 'Hipstelvetica Light';
+	src: url('Hipstelvetica Light.ttf');
+}
+
+
+/************************************* Configuração letras **********************************************/
+
+h1{
+	float: center;
+	text-align: center;
+	font-size: 34;
+	font-weight: normal;
+	font-family: sans-serif;
+	padding-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.75rem;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+h5{
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+
+/******************************************* Logo ******************************************************/
+.logo{
+	font-family: 'Hipstelvetica Light';
+	font-size: 36px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 5px;
+	margin: 10px;
+	width: 150px;
+	float: left;
+	color: white;
+}
+
+/******************************************* Botões ******************************************************/
+
+.button{
+	background-color: #DE1926;
+	border: none;
+	color: black;
+	padding: 8px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	margin-left: 60px;
+	cursor: pointer;
+	
+} 
+
+.button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+/******************************************* Linha de separação hr ******************************************************/
+
+.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}

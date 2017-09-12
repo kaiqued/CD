@@ -1,0 +1,19 @@
+.disciplina{
+	font-size: 22px;
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
+	
+}
+
+
+.fotoproj{
+	float:right;
+	padding: 80px 90px 40px 5px;
+	width: 25%;	
+	align-content: right;
+	margin-left:5px;
+}
+
+

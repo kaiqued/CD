@@ -1,0 +1,18 @@
+.minibio{
+	font-size: 16px;
+	text-align:left;
+	width: 80%;
+	font-family: 'Merriweather', serif;
+	padding-top:15px;
+	padding-bottom: 70px;
+	padding-left: 40px;
+	
+}
+
+.fotoperfil{
+	float:right;
+	margin: 6% 5% 5% 2%;
+	width: 20%;	
+	align-content: right;
+	border-radius: 30%;
+}
