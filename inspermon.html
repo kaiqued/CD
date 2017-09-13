@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="estilo_projeto.css">
 		<link rel="stylesheet" type="text/css" href="estilo_geral.css">
 		<link rel="stylesheet" type="text/css" href="estilo_menosindex.css">
-		<title> Mini Estação Meteorológica </title>
+		<title> Jogo de Terminal </title>
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
@@ -64,30 +64,54 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
-			<p><h1 class = 'titulo'> Mini Estação Meteorológica - 1° Semestre (2017.1) </h1></p>
-			<p class = 'disciplina'> Instrumentação e Medição - Professor Fábio F.</p>
-			<img class = 'fotoproj' src = 'grafico_p1.png'/>
+			<p><h1 class = 'titulo'> Inspermon - 1° Semestre (2017.1) </h1></p>
+			<p class = 'disciplina'> Design de Software - Professor Romero T.</p>
+			<img class = 'fotoproj' src = 'inspermon.png'/>
 
 			<p><h4 class = 'divisao'>Proposta:</h4></p>
 			<p class = 'descr'> 
-			A disciplina de Intrumentação e Medição buscou introduzir aos alunos conceitos básicos de elétrica e, uma iniciação ao processo de calibração 
-			de instrumentos de medição, como termômetros e sensores. Para isso, todo um conteúdo de tratamento estatístico seria trabalhado, visando
-			aproximar uma margem de erro e uma linha de tendência nas medições efetuadas, calibrando o dispositivo. A junção entre a parte elétrica e 
-			estatística esteve justamente neste projeto: confeccionar uma estação meteorológica, regida por sensores. A composição era orbigatóriamente de 3 sensores
-			pré-definidos e um sensor a parte, de livre escolha dos alunos. 
+			Os alunos receberam a proposta de programar, em Python, um jogo de lógica semelhante ao mundialmente famoso Pokemon, em que mascotes batalham por 
+			intermédio de pontos de ataque, defesa e vida, batalhas essas divididas em turnos. Após a implementação da lógica principal do jogo, sugestões de 
+			aprimoramento do programa deveriam também ser implementadas.
 	 
 			</p>
 			
-			<p><h4 class = 'divisao'> Resumo: </h4> </p>
+			<p><h4 class = 'divisao'> Objetivos: </h4> </p>
 			<p class = 'descr'> 
-			O projeto foi realizado em grupos de 4 pessoas e realizado com a supervisão dos professores/técnicos dos laboratórios. A efetuação de medições, a
-			confecção da placa, a soldagem e também o código do microcontrolador; Tudo ficou a cargo dos alunos. Um verdadeiro projeto "mão na massa". Ao fim, a 
-			estação seria composta de um microcontrolador e uma PCB, na qual estaria contida um sensor LM35, um DHT22, um BMP180 e um LDR.
+			Como descrito na Proposta, o jogo seria baseado num jogo mundialmente famoso, no qual o usuário tem sempre a escolha entre passear com o seu
+			inspermon (e batalhar), ou dormir (ir para o menu principal). Caso o usuário quisesse passear, ele encontraria inspermons adversários aleatoriamente.
+			Quando em batalha, o jogador iria receber a situação de saúde de seu inspermon e a de seu adversário e, por fim, o vencedor da batalha.
+			
+			
+			</p>
+			<p class = 'descr'> 
+			Outras iterações seriam implementadas ao código do jogo, ao longo do andamento do projeto.
 			</p>
 			
-			<a class = 'button lerevoltar' href = 'estacao.html'>Ler mais</a>
-
+			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
+			<p class = 'descr'>
+				<ul class='descr'>
+					<li>Lógica e Desenvolvimento de Programas → Python 
+				</ul>
 			</p>
+			
+			<p><h4 class = 'divisao'> Resultados: </h4> </p>
+			<p class = 'descr'>
+			Após implementadas a lógica principal do jogo, os alunos partiram para iterações:
+				<ol class='descr'>
+					<li>A criação de uma Insperdex (o jogador poderá jogar com qualquer Inspermon o qual vencer em batalha);
+					<li>O jogador terá a possibilidade de desistir da batalha em seu turno;
+					<li>Para tornar o jogo mais dinâmico, um elemento sorte afetará os ataques do jogador e do adversário;
+					<li>O uso (e vitórias) com um Inspermon recairá em sua evolução, aumentando seus atributos;
+					<li>O jogo poderá ser salvado, assim, o jogador poderá continuar com os mesmos Inspermons, a partir do ponto salvo;
+					<li>Iterações extras por parte dos alunos
+				</ol>
+			</p>
+			<p class='descr'>
+			Sendo assim, chegou-se a um jogo no qual o usuário poderá realizar os comandos descritos nas seções anteriores e, salvar o seu progresso. 
+					
+			</p>
+			<a class = 'button lerevoltar' href = 'inspermon_pre.html' >Voltar</a>
 		</div>	
 	</body>
 </html>
