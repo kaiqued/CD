@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="estilo_projeto.css">
 		<link rel="stylesheet" type="text/css" href="estilo_geral.css">
 		<link rel="stylesheet" type="text/css" href="estilo_menosindex.css">
-		<title> Dinâmica Populacional </title>
+		<title> Mini Estação Meteorológica </title>
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
@@ -66,28 +66,52 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
-			<p><h1 class = 'titulo'> Dinâmica Populacional - 1° Semestre (2017.1) </h1></p>
-			<p class = 'disciplina'> Modelagem e Simulação do Mundo Físico - Professor Fábio H.</p>
+			<p><h1 class = 'titulo'> Mini Estação Meteorológica - 1° Semestre (2017.1) </h1></p>
+			<p class = 'disciplina'> Instrumentação e Medição - Professor Fábio F.</p>
 			<img class = 'fotoproj' src = 'grafico_p1.png'/>
 
 			<p><h4 class = 'divisao'>Proposta:</h4></p>
 			<p class = 'descr'> 
-			O aluno tem a tarefa de criar um modelo para um sistema físico envolvendo tubarões, raias e vieiras, realizando 
-			algum tipo de análise do modelo equacionado (ou seja, respondendo uma questão explicativa, preditiva ou relacionada à determinação dos parâmetros 
-			ideais para um sistema, no caso, acerca da dinâmica populacional entre esses animais marinhos). 
+			A disciplina de Intrumentação e Medição buscou introduzir aos alunos conceitos básicos de elétrica e, uma iniciação ao processo de calibração 
+			de instrumentos de medição, como termômetros e sensores. Para isso, todo um conteúdo de tratamento estatístico seria trabalhado, visando
+			aproximar uma margem de erro e uma linha de tendência nas medições efetuadas, calibrando o dispositivo. A junção entre a parte elétrica e 
+			estatística esteve justamente neste projeto: confeccionar uma estação meteorológica, regida por sensores.
 	 
 			</p>
 			
-			<p><h4 class = 'divisao'> Resumo: </h4> </p>
+			<p><h4 class = 'divisao'> Objetivos: </h4> </p>
 			<p class = 'descr'> 
-			Apresentada a proposta do trabalho, buscou-se saber a intensidade da diferença no número de vieiras, 
-			num determinado tempo, para diferentes taxas de caça de tubarões. Após 100 anos, como seria essa diferença, dados vários 
-			contextos de taxa de caça de tubarões? 
+			A estação meteorológica seria montada num Arduino Uno (microcontrolador). Programando-o, ele interpretaria os sinais recebidos pelos sensores 
+			utilizados. Para a montagem, seria necessária a confecção de uma PCB (Placa de Circuito Impresso), na qual seriam soldados os sensores e, 
+			encaixada no microcontrolador. A parte de medição estava justamente em efetuar diversas medidas com os sensores a serem utilizados, a fim de calibrá-
+			los. Passar-se-ia o cálculo matemático da linha de tendência e margem de erro ao código do Arduino e, por fim, os sinais recebidos seriam convertidos e enviados
+			a um monitor LCD. 
 			</p>
 			
-			<a class = 'button lerevoltar' href = 'pro1mod.html'>Ler mais</a>
-
+			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
+			<p class = 'descr'>
+				<ul class='descr'>
+					<li>Conceito e cálculo de erros de medição
+					<li>Método dos Mínimos Quadrados e o cálculo da linha de tendência
+					<li>Programação em Arduino
+					<li>Prática de Solda
+					<li>Prática em desenho assistido por computador → Placa de circuito impresso
+					<li>A função e características do sensor LM35
+					<li>A função e características do sensor DHT22
+					<li>A função e características do sensor BMP180
+					<li>A função e características do sensor LDR
+				</ul>
 			</p>
+			
+			<p><h4 class = 'divisao'> Resultados: </h4> </p>
+			<p class = 'descr'>
+			Terminada a montagem da mini estação, teríamos em mãos um circuíto com um LCD, no qual eram dispostos valores de temperatura (LM35)
+		, umidade relativa do ar (DHT22), pressão atmosférica (BMP180) e intensidade luminosa (LDR). Para que a estação funcionasse, bastava ligá-la a uma fonte de tensão, 
+		podendo ser inclusive uma porta USB de um computador. 
+			
+		
+			</p>
+			<a class = 'button lerevoltar' href = 'estacao_pre.html' >Voltar</a>
 		</div>	
 	</body>
 </html>
