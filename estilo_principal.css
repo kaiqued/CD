@@ -9,7 +9,7 @@
 .slides-container{
 	position:relative;
 	max-width: 700px;
-	margin:auto;
+	margin-left: 5%;;
 	
 }
 
@@ -18,10 +18,16 @@
 	width: 13px;
 	height: 13px;
 	border-radius: 50%;
-	margin:0 2px;
+	margin:0 1%;
 	display: inline-block;
 	background-color: #bbb;
 	transition: background-color 0.6s ease;
+}
+.dotcontainer{
+	width: 700px;
+	margin-left: 5%;
+	text-align: center;
+	margin-top:0;
 }
 
 .ativo{
@@ -30,7 +36,7 @@
 
 .imagens{
 	width:700px;
-	height:340px;
+	height:370px;
 }
 
 .text {
@@ -39,15 +45,23 @@
 	background-color: white;
 	opacity: 0.8;
 	font-size: 25px;
-	padding: 8px 12px;
 	position: absolute;
 	bottom: 8px;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-family: 'Saira Extra Condensed', sans-serif;
+	text-indent: 5%;
+	margin: 2% 0;
+	padding: 1% 0;
 }
 
+.proj{
+	padding-left: 30px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
 
+}
 
 
 
@@ -58,7 +72,7 @@
 	font-family: 'Merriweather', serif;
 	padding-top:15px;
 	padding-bottom: 2%;
-	padding-left: 40px;
+	margin-left: 5%;
 	
 }
 
