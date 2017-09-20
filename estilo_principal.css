@@ -3,8 +3,6 @@
 	display: none;
 }
 
-*{box-sizing : border-box;}
-
 
 .slides-container{
 	padding-top: 10px;
@@ -25,7 +23,7 @@
 	transition: background-color 0.6s ease;
 }
 
-.ativo .dor:hover{
+.ativo .dot:hover{
 	background-color: #717171;
 }
 
@@ -49,7 +47,6 @@
 }
 
 .td{
-	float:left;
 	padding-left: 50px;
 }
 
