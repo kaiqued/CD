@@ -10,10 +10,14 @@
 
 .fotoproj{
 	float:right;
-	padding: 80px 90px 40px 5px;
-	width: 25%;	
+	width: 22%;	
 	align-content: right;
-	margin-left:5px;
+	margin: 4% 7%;
+	cursor: pointer;
+    transition: 0.3s;
 }
 
+.fotoproj:hover{
+	opacity: 0.5;
+}
 
