@@ -9,6 +9,8 @@
 		<title> Sobre Mim </title>
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 
 	</head>
 	<body style = 'background-size:cover;'>
@@ -54,7 +56,7 @@
 				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
 				<div class="conteudo-dropdown">
 				  <a href="inspermon_pre_a.html" class = 'link'>Jogo - Inspermon</a>
-				  <a href="agendamento_pre_a.html" class = 'link'>Sistema de Agendamento</a>
+				  <a href="agendamento_pre_a.html" class = 'link'>Sistema de Agendamento de Horário</a>
 				</div>
 			  </li>
 			  <li class = "semdrop listitem" >
@@ -93,15 +95,23 @@
 			
 				<hr class='style13' style= 'margin:2%; width:95%;'></hr>
 				
+<<<<<<< HEAD
+				<a class = 'button' onclick="scrollTo('#academica')">Formação Acadêmica</a>
+				<a class = 'button'  onclick="scrollTo('#linguas')">Línguas</a>
+				<a class = 'button' onclick="scrollTo('#hobbies')">Hobbies</a>
+				<a class = 'button' onclick="scrollTo('#extras')">Atividades extra</a>
+				<a class = 'button' onclick="scrollTo('#informatica')">Informática</a>
+=======
 				<a class = 'button' onclick="topFunction()" href = '#'>Formação Acadêmica</a>
 				<a class = 'button'  href = '#'>Línguas</a>
 				<a class = 'button' href = '#'>Hobbies</a>
 				<a class = 'button' href = '#'>Atividades Extras</a>
 				<a class = 'button' id='2' href = '#'>Informática</a>
+>>>>>>> 27bd74d9c50ea501f28ffd25726de1d9eca16ee8
 				<hr class='style13' style= 'margin:2%; width:95%;'></hr>
 				
 				<div class = 'detalhado'>
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Formação Acadêmica: </h4> </p>
+					<p><h4 class = 'divisao' id = 'academica' style= 'font-weight: bold;'> Formação Acadêmica: </h4> </p>
 					
 					<p class = 'descr'>Ensino Infantil, Fundamental I e Fundamental II - Colégio Agostiniano São José (2005-2013)</p>
 					
@@ -110,19 +120,23 @@
 					<p class = 'descr'>Graduação - Engenharia Mecatrônica – Insper (2017 - 2021)</p>
 
 					
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Línguas: </h4> </p>
+					<p><h4 class = 'divisao' id = 'linguas' style= 'font-weight: bold;'> Línguas: </h4> </p>
 					<p class = 'descr'>Português </p>
 					<p class = 'descr'>Inglês avançado</p>
 					<p class = 'descr'>Espanhol avançado</p>
 					
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Hobbies: </h4> </p>
+					<p><h4 class = 'divisao' id = 'hobbies' style= 'font-weight: bold;'> Hobbies: </h4> </p>
 					<p class = 'descr'>Dança</p>
 					
+<<<<<<< HEAD
+					<p><h4 class = 'divisao' id = 'extras' style= 'font-weight: bold;'> Atividades extras: </h4> </p>
+=======
 					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Atividades Extras: </h4> </p>
+>>>>>>> 27bd74d9c50ea501f28ffd25726de1d9eca16ee8
 					<p class = 'descr'>Trabalho voluntário - MEV (Monitoria Educacional Voluntária) (2015.2)</p>
 					
 					<div id = '1'>
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Informática: </h4> </p>
+					<p><h4 class = 'divisao' id = 'informatica' style= 'font-weight: bold;'> Informática: </h4> </p>
 					<p class = 'descr'>Python</p>
 					<p class = 'descr'>HTML</p>
 					<p class = 'descr'>CSS</p>
@@ -132,6 +146,12 @@
 			</div>
 			</div>
 		</div>
-		
+		<script>
+			function scrollTo(x) {
+				$('html, body').animate({ scrollTop: $(x).offset().top }, 'slow');
+				return false;
+			}
+		</script>
+
 	</body>
 </html>
