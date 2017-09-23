@@ -9,9 +9,10 @@
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
 	</head>
 	<body>
-		<div class = 'logo'> Enjinia </div>
+		<div class = 'logo'><a href = 'principal_a.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
 		<a class = 'home' href = 'index.html'>
 			<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 		</a>
@@ -53,7 +54,7 @@
 				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
 				<div class="conteudo-dropdown">
 				  <a href="inspermon_pre_a.html" class = 'link'>Jogo - Inspermon</a>
-				  <a href="agendamento_pre_a.html" class = 'link'>Trabalho Final</a>
+				  <a href="agendamento_pre_a.html" class = 'link'>Sistema de Agendamento de Horário</a>
 				</div>
 			  </li>
 			  <li class = "semdrop listitem" >
@@ -66,8 +67,14 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 			<p><h1 class = 'titulo'> Montanha Russa - 1° Semestre (2017.1) </h1></p>
-			<img class = 'fotoproj' src = 'proj3traj.png'/>
+			<img class = 'fotoproj' id = 'myImg' alt = 'Gráfico da trajetória do carrinho' src = 'proj3traj.png'/>
 			<p class = 'disciplina'> Modelagem e Simulação do Mundo Físico - Professor Fábio H.</p>
 		
 
@@ -87,7 +94,7 @@
 			o looping como uma circunferência. A paritir disso, decidiu-se analisar o efeito da variação tanto da altura da queda quanto 
 			do raio do looping.
 			</p>
-			<img class = 'fotoproj' src = 'proj3encar.png'/>
+			<img class = 'fotoproj' id = 'myImg2' alt = 'Gráfico das Energias do carrinho em função do tempo' src = 'proj3encar.png'/>
 			
 			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
 			<p class = 'descr'>
@@ -104,10 +111,10 @@
 			
 			<p><h4 class = 'divisao'> Resultados: </h4> </p>
 			<p class = 'descr'>
-			A partir do <a href='projeto 3 - ppt.pdf'>modelo, equações e gráficos</a>obtidos, foi  possível analisar para o comportamneto
+			A partir do <a href='projeto 3 - ppt.pdf' target = '_blank'>modelo, equações e gráficos</a> obtidos, foi  possível analisar para o comportamneto
 			da montanha russa com a variação da altura da queda e do raio do looping tanto considerando forças dissipativas, quanto não,
 			 percebendo-se que há uma grande diferênça entre os resultados, o que mostra como o atrito tem uma grande importância nessa caso.</p>
-			<img class = 'fotoproj' src = 'pro3fin.png'/>
+			<img class = 'fotoproj' id= 'myImg3' alt = 'Gráfico da situação final do carrinho' src = 'pro3fin.png'/>
 			<p class = 'descr'>
 				Além disso, classificou-se o tipo de comportamento do carrinho da montanha russa em três:</p>
 				<ol class = 'descr' style = 'margin-left: 4%;'>

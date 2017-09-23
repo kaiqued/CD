@@ -21,6 +21,9 @@ body{
 
 
 /************************************* Configuração letras **********************************************/
+a{
+	color: blue;
+}
 
 h1{
 	float: center;
@@ -73,17 +76,19 @@ h6 {
 	font-size: 36px;
 	text-align: left;
 	padding-left: 15px;
-	padding-top: 5px;
+	margin-top: 1%;
 	margin: 10px;
 	width: 150px;
 	float: left;
 	color: white;
+	text-decoration:none;
 }
+
 
 /******************************************* Botões ******************************************************/
 
 .button{
-	background-color: #DE1926;
+	background-color: #2CBCC7;
 	border: none;
 	color: black;
 	padding: 8px 30px;
@@ -96,14 +101,14 @@ h6 {
 	border-radius: 8px;
 	margin-left: 60px;
 	cursor: pointer;
-	box-shadow: 0 9px #540C12;
+	box-shadow: 0 9px #0a263e;
 	
 } 
 
 
 .button:active {
-  background-color: #9C1622;
-  box-shadow: 0 5px #540C12;
+  background-color: #0a263e;
+  box-shadow: 0 5px #0a263e;
   transform: translateY(4px);
 }
 

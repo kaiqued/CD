@@ -9,16 +9,16 @@
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
 	</head>
 	<body>
-		<div class = 'logo'> Enjinia </div>
+		<div class = 'logo'><a href = 'principal_a.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
 		<a class = 'home' href = 'index.html'>
 			<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 		</a>
 		
 		<div class = 'cab'><b>Anna Beathriz C. de Mauro</b> - Engenharia Mecatrônica</div>
 		
-		<div class = 'cab'><b>Anna Beathriz C. de Mauro</b> - Engenharia Mecatrônica</div>
 		
 		<div>
 			<ul class = 'lista'>
@@ -55,7 +55,7 @@
 				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
 				<div class="conteudo-dropdown">
 				  <a href="inspermon_pre_a.html" class = 'link'>Jogo - Inspermon</a>
-				  <a href="agendamento_pre_a.html" class = 'link'>Trabalho Final</a>
+				  <a href="agendamento_pre_a.html" class = 'link'>Sistema de Agendamento de Horário</a>
 				</div>
 			  </li>
 			  <li class = "semdrop listitem" >
@@ -66,9 +66,15 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 				<p><h1 class = 'titulo'> Impacto do uso de aplicativos de celular de mobilidade urbana na sociedade contemporânea - 1° Semestre (2017.1) </h1></p>
 				<p class = 'disciplina'> Grandes Desafios da Engenharia - Professor Sérgio C.</p>
-				<img class = 'fotoproj' src = 'https://s.aolcdn.com/hss/storage/midas/a2e6c5521b28ef5ae9aef444526f3f27/203527801/waze-1400-2.jpg'/>
+				<img class = 'fotoproj' id = 'myImg2' alt = 'Exemplo do uso do Waze' src = 'https://s.aolcdn.com/hss/storage/midas/a2e6c5521b28ef5ae9aef444526f3f27/203527801/waze-1400-2.jpg'/>
 
 				<p><h4 class = 'divisao'>Proposta:</h4></p>
 				<p class = 'descr'> Como etapa final nesta disciplina, o aluno deveria redigir um texto de corpo baseado em seções selecionadas de um 
@@ -84,7 +90,7 @@
 				</p>
 				
 				<p><h4 class = 'divisao'> Conteúdo trabalhado/Referências: </h4> </p>
-				<img class = 'fotoproj' src = 'https://d1oiazdc2hzjcz.cloudfront.net/website/share-image.png'>
+				<img class = 'fotoproj' id = 'myImg'  alt = 'Logo Waze' src = 'https://d1oiazdc2hzjcz.cloudfront.net/website/share-image.png'>
 				<p class = 'descr'>
 					<ul class='descr'>
 						<li>Redação de um texto no formato de artigo científico - normas da ABNT</li>
@@ -105,5 +111,6 @@
 				</p>
 				<a class = 'button lerevoltar' href = 'artigo_pre_a.html' >Voltar</a>
 			</div>
+			
 	</body>
 </html>

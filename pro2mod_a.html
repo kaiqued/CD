@@ -9,9 +9,10 @@
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
 	</head>
 	<body>
-		<div class = 'logo'> Enjinia </div>
+		<div class = 'logo'><a href = 'principal_a.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
 		<a class = 'home' href = 'index.html'>
 			<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 		</a>
@@ -53,7 +54,7 @@
 				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
 				<div class="conteudo-dropdown">
 				  <a href="inspermon_pre_a.html" class = 'link'>Jogo - Inspermon</a>
-				  <a href="agendamento_pre_a.html" class = 'link'>Trabalho Final</a>
+				  <a href="agendamento_pre_a.html" class = 'link'>Sistema de Agendamento de Horário</a>
 				</div>
 			  </li>
 			  <li class = "semdrop listitem" >
@@ -64,9 +65,15 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 			<p><h1 class = 'titulo'> Mapeamento da temperatura interna de um Meteoro - 1° Semestre (2017.1) </h1></p>
 			<p class = 'disciplina'> Modelagem e Simulação do Mundo Físico - Professor Fábio H.</p>
-			<img class = 'fotoproj' src = 'pro2tempexein.png'/>
+			<img class = 'fotoproj' id = 'myImg2' alt = 'Gráfico das temperaturas internas e externas em função do tempo' src = 'pro2tempexein.png'/>
 
 			<p><h4 class = 'divisao'>Proposta:</h4></p>
 			<p class = 'descr'> 
@@ -86,7 +93,7 @@
 			</p>
 			
 			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
-			<img class = 'fotoproj' src = 'proj2final.png'/>
+			<img class = 'fotoproj' id = 'myImg' alt = 'Gráfico obtido como resultado do projeto' src = 'proj2final.png'/>
 			<p class = 'descr'>
 				<ul class='descr'>
 					<li>1° Lei da Termodinâmica</li>
@@ -102,7 +109,7 @@
 			</p>
 			
 			<p><h4 class = 'divisao'> Resultados: </h4> </p>
-			<p class = 'descr'>A partir do <a href='cartaz final.pdf'>modelo, equações e gráficos</a>obtidos, pode-se dizer que uma 
+			<p class = 'descr'>A partir do <a href='cartaz final.pdf' target = '_blank'>modelo, equações e gráficos</a> obtidos, pode-se dizer que uma 
 			variação da velociade incial do meteoro influencia na temperatura do sistema. Desse modo, sabendo-se a temperatura máxima em
 			a que um organismo sobrevive, foi possível analisar que em um determinado instante t = 6.4s, a velocidade inicial máxima 
 			para que seu transporte no interior do meteoro fosse viável seria de 12.8Km/s, fazendo com que o Lost City não se encaixe 
@@ -112,5 +119,6 @@
 			</p>
 			<a class = 'button lerevoltar' href = 'pro2mod_pre_a.html' >Voltar</a>
 		</div>	
+		
 	</body>
 </html>

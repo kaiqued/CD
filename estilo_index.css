@@ -8,7 +8,8 @@
 	font-weight:normal;
 	margin-top: 1%;
 	color: white;
-	text-align: center;
+	text-align: left;
+	margin-left: 15%;
 }
 
 .polaroidcit {
@@ -66,7 +67,7 @@
 /******************************************* Botões ******************************************************/
 
 .nome{
-	background-color: #DE1926;
+	background-color: #2CBCC7;
 	border: none;
 	color: black;
 	text-align: center;
@@ -79,14 +80,14 @@
 	margin: 8%;
 	border-radius:12px;
 	width:84%;
-	box-shadow: 0 9px #540C12;
+	box-shadow: 0 9px #0a263e;
 } 
 
 
 
 .nome:active {
-  background-color: #9C1622;
-  box-shadow: 0 5px #540C12;
+  background-color: #0a263e;
+  box-shadow: 0 5px #0a263e;
   transform: translateY(4px);
 }
 

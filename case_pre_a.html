@@ -9,9 +9,10 @@
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
 	</head>
 	<body>
-		<div class = 'logo'> Enjinia </div>
+		<div class = 'logo'><a href = 'principal_a.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
 		<a class = 'home' href = 'index.html'>
 			<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 		</a>
@@ -64,8 +65,14 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 			<p><h1 class = 'titulo'> Case 10: Big Data - 1° Semestre (2017.1) </h1></p>
-			<img class = 'fotoproj' src = 'https://www.linknacional.com.br/wp-content/uploads/2016/03/data-head.jpg'/>
+			<img class = 'fotoproj' id = 'myImg2' alt = 'Big Data' src = 'https://www.linknacional.com.br/wp-content/uploads/2016/03/data-head.jpg'/>
 			<p class = 'disciplina'> Grandes Desafios da Engenharia - Professor Fernando R.</p>
 			
 
@@ -88,5 +95,6 @@
 			</p>
 			<a class = 'button lerevoltar' href = 'case_a.html' >Ler mais</a>
 		</div>	
+		
 	</body>
 </html>

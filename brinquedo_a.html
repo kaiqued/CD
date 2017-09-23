@@ -9,9 +9,10 @@
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
 		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
 	</head>
 	<body>
-		<div class = 'logo'> Enjinia </div>
+		<div class = 'logo'><a href = 'principal_a.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
 		<a class = 'home' href = 'index.html'>
 			<img src = "http://www.aussielivinghomes.com.au/wp-content/uploads/2014/03/icon-house.png" width= 60px>
 		</a>
@@ -64,9 +65,15 @@
 			</ul>
 		</div>
 		<div class = 'escrito'>
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 			<p><h1 class = 'titulo'> Pingu - 1° Semestre (2017.1) </h1></p>
 			<p class = 'disciplina'> Natureza do Design - Professor Roberto F.</p>
-			<img class = 'fotoproj' src = 'Pinguim rascunho.jpg'/>
+			<img class = 'fotoproj' id = 'myImg' alt = 'Rascunho do brinquedo' src = 'Pinguim rascunho.jpg'/>
 
 			<p><h4 class = 'divisao'>Proposta:</h4></p>
 			<p class = 'descr'> 
@@ -100,7 +107,7 @@
 			</p>
 			
 			<p><h4 class = 'divisao'> Resultados: </h4> </p>
-			<img class = 'fotoproj' src = 'brinquedo_a.png'/>
+			<img class = 'fotoproj' id = 'myImg2' alt = 'Crianças brincando com o brinquedo' src = 'brinquedo_a.png'/>
 			<p class = 'descr'>
 			Após validação com crianças, percebeu-se que a ideia inicial de que houvesse apenas um iglu e um jogador poderia ser melhorada.
 			Desse modo, decidiu-se que seriam 3 iglus para que fossem possíveis 3 jogadores ao mesmo tempo, competindo entre si. 
