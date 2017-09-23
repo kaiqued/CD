@@ -9,6 +9,7 @@
 		<title> Sobre Mim </title>
 		<meta charset = 'utf-8'>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class = 'logo'> Enjinia </div>
@@ -87,17 +88,17 @@
 				</p>
 				</div>
 			
-				<hr class='style13' style= 'margin:2%; width:95%;'></hr>
+				<hr class='style13' style= 'margin:1%; width:95%;'></hr>
 				
-				<a class = 'button' onclick="topFunction()" href = '#'>Formação Acadêmica</a>
-				<a class = 'button'  href = '#'>Línguas</a>
-				<a class = 'button' href = '#'>Hobbies</a>
-				<a class = 'button' href = '#'>Atividades Extras</a>
-				<a class = 'button' id='2' href = '#'>Informática</a>
+				<a class = 'button' onclick="scrollTo('#academica')">Formação Acadêmica</a>
+				<a class = 'button'  onclick="scrollTo('#linguas')">Línguas</a>
+				<a class = 'button' onclick="scrollTo('#hobbies')">Hobbies</a>
+				<a class = 'button' onclick="scrollTo('#extras')">Atividades extra</a>
+				<a class = 'button' onclick="scrollTo('#informatica')">Informática</a>
 				<hr class='style13' style= 'margin:2%; width:95%;'></hr>
 				
 				<div class = 'detalhado'>
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Formação Acadêmica: </h4> </p>
+					<p><h4 class = 'divisao' id = 'academica' style= 'font-weight: bold;'> Formação Acadêmica: </h4> </p>
 					
 					<p class = 'descr'>Ensino Fundamental I e II - Colégio Paulista (2006-2013)</p>
 					
@@ -108,19 +109,19 @@
 					<p class = 'descr'>Ensino Superior - Engenharia Mecânica – Insper (2017 - )</p>
 
 					
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Línguas: </h4> </p>
+					<p><h4 class = 'divisao' id= 'linguas' style= 'font-weight: bold;'> Línguas: </h4> </p>
 					<p class = 'descr'>Português </p>
 					<p class = 'descr'>Inglês (6° ano de curso)</p>
 					
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Hobbies: </h4> </p>
+					<p><h4 class = 'divisao' id= 'hobbies'' style= 'font-weight: bold;'> Hobbies: </h4> </p>
 					<p class = 'descr'>Natação</p>
 					<p class = 'descr'>Jogos e Televisão</p>
 					
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Atividades Extras: </h4> </p>
+					<p><h4 class = 'divisao' id= 'extras' style= 'font-weight: bold;'> Atividades Extras: </h4> </p>
 					<p class = 'descr'>Membro da entidade de alunos Design Challenge (Insper)</p>
 					
 					<div id = '1'>
-					<p><h4 class = 'divisao' style= 'font-weight: bold;'> Informática: </h4> </p>
+					<p><h4 class = 'divisao' id = 'informatica' style= 'font-weight: bold;'> Informática: </h4> </p>
 					<p class = 'descr'>Introdução a Python</p>
 					<p class = 'descr'>Introdução a Arduino</p>
 					<p class = 'descr'>Introdução a HTML</p>
@@ -130,6 +131,11 @@
 			</div>
 			</div>
 		</div>
-		
+		<script>
+			function scrollTo(x) {
+				$('html, body').animate({ scrollTop: $(x).offset().top }, 'slow');
+				return false;
+			}
+		</script>
 	</body>
 </html>

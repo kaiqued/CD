@@ -100,3 +100,9 @@
         width: 100%;
     }
 }
+
+.listadescr{
+	display: inline-block;
+	vertical-align:top;
+
+}
