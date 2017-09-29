@@ -1,4 +1,6 @@
-
+body{
+	overflow:hidden;
+}
 .cabindex{
 	font-family:'Saira Extra Condensed', sans-serif;
 	font-size: 100px;
