@@ -1,0 +1,62 @@
+.polaroid2 {
+  width: 90%;
+  height:auto;
+  border-radius: 12px;
+  border: 2px solid #2CBCC7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+  margin-left:5%;
+  display: inline-block;
+}
+
+/*.fotopj{
+	width:auto;
+	height:170px;
+	border-radius:15%;
+	margin-left:20%;
+	margin-right:8%;
+	margin-top: 8%;
+}*/
+.fotopj{
+	float:right;
+	width: 22%;	
+	align-content: right;
+	margin: 2% 3%;
+    transition: 0.3s;
+	border-radius: 12px;
+}
+.lermais{
+	background-color: #2CBCC7;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 1% 0;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	border-radius:12px;
+	width:20%;
+	box-shadow: 0 9px #0a263e;
+	margin-left: 40%;
+} 
+
+
+.lermais:active {
+  background-color: #0a263e;
+  box-shadow: 0 5px #0a263e;
+  transform: translateY(4px);
+}
+
+.descrm{
+	padding-left: 5%;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	padding-right: 5%;
+
+}
+
+
