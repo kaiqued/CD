@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="estilo_projeto.css">
+		<link rel="stylesheet" type="text/css" href="estilo_geral.css">
+		<link rel="stylesheet" type="text/css" href="estilo_menosindex.css">
+		<title> Mini Estação Meteorológica </title>
+		<meta charset = 'utf-8'>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
+		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
+	</head>
+	<body>
+		<div class = 'logo'><a href = 'index.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
+		
+		<div class = 'cab'><b>Alessandra Blucher</b> - Engenharia de Computação</div>
+		
+		<div>
+			<ul class = 'lista'>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Âmbito Social</a>
+				<div class="conteudo-dropdown">
+				  <a href="case_pre_l.html" class = 'link'>Case (Debate)</a>
+				  <a href="artigo_pre_l.html" class = 'link'>Mini Artigo Científico</a>
+				</div>
+				  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Design</a>
+				<div class="conteudo-dropdown">
+				  <a href="website_pre_l.html" class = 'link'>Portfólio de Projetos (Website) </a>
+				  <a href="brinquedo_pre_l.html" class = 'link'>Brinquedo Infantil</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Modelagens</a>
+				<div class="conteudo-dropdown">
+				  <a href="pro1mod_pre_l.html" class = 'link'>Modelagem de um Sistema Populacional</a>
+				  <a href="pro2mod_pre_l.html" class = 'link'>Modelagem de um Sistema Termodinâmico</a>
+				  <a href="pro3mod_pre_l.html" class = 'link'>Modelagem de um Sistema Mecânico</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Projetos de Eletrônica</a>
+				<div class="conteudo-dropdown">
+				  <a href="estacao_pre_l.html" class = 'link'>Mini Estação Meteorológica</a>
+				  <a href="brinquedo_pre_l.html" class = 'link'>Brinquedo Infantil</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
+				<div class="conteudo-dropdown">
+				  <a href="inspermon_pre_l.html" class = 'link'>Jogo - Inspermon</a>
+				  <a href="agendamento_pre_l.html" class = 'link'>Trabalho Final</a>
+				</div>
+			  </li>
+			  <li class = "semdrop listitem" >
+				<a href= 'aluno_l.html' class = 'link' >Sobre Mim</a>
+				</div>
+			  </li>
+			  
+			</ul>
+		</div>
+		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+			<p><h1 class = 'titulo'> Mini Estação Meteorológica - 1° Semestre (2017.1) </h1></p>
+			<p class = 'disciplina'> Instrumentação e Medição - Professor Fábio F.</p>
+			<img class = 'fotoproj' id = 'myImg' alt = 'Esquema do circuito' src = 'fritzing circuito.png'/>
+
+			<p><h4 class = 'divisao'>Proposta:</h4></p>
+			<p class = 'descr'> 
+			A disciplina de Intrumentação e Medição buscou introduzir aos alunos conceitos básicos de elétrica e, uma iniciação ao processo de calibração 
+			de instrumentos de medição, como termômetros e sensores. Para isso, todo um conteúdo de tratamento estatístico seria trabalhado, visando
+			aproximar uma margem de erro e uma linha de tendência nas medições efetuadas, calibrando o dispositivo. A junção entre a parte elétrica e 
+			estatística esteve justamente neste projeto: confeccionar uma estação meteorológica, regida por sensores.
+	 
+			</p>
+			
+			<p><h4 class = 'divisao'> Objetivos: </h4> </p>
+			<p class = 'descr'> 
+			A estação meteorológica seria montada num Arduino Uno (microcontrolador). Programando-o, ele interpretaria os sinais 
+			recebidos pelos sensores utilizados. Para a montagem, seria necessária a confecção de uma PCB (Placa de Circuito Impresso), 
+			na qual seriam soldados os sensores e, encaixada no microcontrolador. A parte de medição estava justamente em efetuar diversas
+			medidas com os sensores a serem utilizados, a fim de calibrá-los. Além disso, seria passado o cálculo matemático da linha de 
+			tendência e margem de erro ao código do Arduino para que, por fim, os sinais recebidos seriam convertidos e enviados a um monitor LCD. 
+			</p>
+			<img class = 'fotoproj' id = 'myImg2' alt = 'Esquemático criado no Eagle' src = 'esquematico eagle.jpg'/>
+			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
+			<p class = 'descr'>
+				<ul class='descr'>
+					<li>Processo de calibração</li>
+					<li>Conceito e cálculo de erros de medição</li>
+					<li>Método dos Mínimos Quadrados e o cálculo da linha de tendência</li>
+					<li>Programação em Arduino</li>
+					<li>Prática de Solda</li>
+					<li>Prática em desenho assistido por computador → Placa de circuito impresso</li>
+					<li>A função e características do sensor LM35</li>
+					<li>A função e características do sensor DHT22</li>
+					<li>A função e características do sensor BMP180</li>
+					<li>A função e características do sensor MQ7</li>
+					<li>Elaboração de um <a href='projeto final final.pdf'>relátorio</a> formal</li>
+				</ul>
+			</p>
+			
+			<p><h4 class = 'divisao'> Resultados: </h4> </p>
+			<p class = 'descr'>
+			Terminada a montagem da mini estação, teríamos em mãos um circuíto com um LCD, no qual eram dispostos valores de temperatura
+			(LM35), umidade relativa do ar (DHT22), pressão atmosférica (BMP180) e concentração de monóxido de carbono (MQ7). Para que a 
+			estação funcionasse, bastava ligá-la a uma fonte de tensão, podendo ser inclusive uma porta USB de um computador. 
+			
+		
+			</p>
+			<a class = 'button lerevoltar' href = 'estacao_pre_l.html' >Voltar</a>
+		</div>	
+	</body>
+</html>

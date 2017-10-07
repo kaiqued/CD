@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="estilo_principal.css">
+		<link rel="stylesheet" type="text/css" href="estilo_menosindex.css">
+		<link rel="stylesheet" type="text/css" href="estilo_geral.css">
+		<title> Projetos da Alessandra </title>
+		<meta charset = 'utf-8'>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
+		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div class = 'logo'><a href = 'index.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
+		
+		<div class = 'cab'><a href = 'principal_l.html' style = 'text-decoration:none; color:white;'><b>Alessandra Blücher</b> - Engenharia da Computação</a></div>
+		
+		<div>
+			<ul class = 'lista'>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Âmbito Social</a>
+				<div class="conteudo-dropdown">
+				  <a href="case_pre_l.html" class = 'link'>Case (Debate)</a>
+				  <a href="artigo_pre_l.html" class = 'link'>Mini Artigo Científico</a>
+				</div>
+				  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Design</a>
+				<div class="conteudo-dropdown">
+				  <a href="website_pre_l.html" class = 'link'>Portfólio de Projetos (Website) </a>
+				  <a href="brinquedo_pre_l.html" class = 'link'>Brinquedo Infantil</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Modelagens</a>
+				<div class="conteudo-dropdown">
+				  <a href="pro1mod_pre_l.html" class = 'link'>Modelagem de um Sistema Populacional</a>
+				  <a href="pro2mod_pre_l.html" class = 'link'>Modelagem de um Sistema Termodinâmico</a>
+				  <a href="pro3mod_pre_l.html" class = 'link'>Modelagem de um Sistema Mecânico</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Projetos de Eletrônica</a>
+				<div class="conteudo-dropdown">
+				  <a href="estacao_pre_l.html" class = 'link'>Mini Estação Meteorológica</a>
+				  <a href="brinquedo_pre_l.html" class = 'link'>Brinquedo Infantil</a>
+				</div>
+			  </li>
+			  <li class="dropdown listitem">
+				<a href="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
+				<div class="conteudo-dropdown">
+				  <a href="inspermon_pre_l.html" class = 'link'>Jogo - Inspermon</a>
+				  <a href="agendamento_pre_l.html" class = 'link'>Trabalho Final</a>
+				</div>
+			  </li>
+			  <li class = "semdrop listitem" >
+				<a href= 'aluno_l.html' class = 'link' >Sobre Mim</a>
+				</div>
+			  </li>
+			  
+			</ul>
+		</div>
+	
+			
+			<div class = 'slides-container' style = 'padding-top: 2%;'>
+				<div class = 'slide' >
+					<a href = 'artigo_l.html'>
+						<img class = 'imagens' src= 'http://psiimpact.com/wp-content/uploads/2015/04/TMGYCD2.jpeg'/>
+						<div class="text">Relevância da efetividade do altruísmo na atualidade</div>
+					</a>
+				</div>
+				<div class = 'slide'>
+					<a href = 'pro2mod_pre_l.html'>
+						<img class = 'imagens' src = 'pro2tempexein.png'/>
+						<div class="text">Mapeamento da temperatura interna de um Meteoro </div>
+					</a>
+				</div>
+				<div class = 'slide'>
+					<a href = 'pro3mod_pre_l.html'>
+						<img class = 'imagens' src = 'FabLab.png' />
+						<div class="text">Sistema de Agendamento de Horário</div>
+					</a>
+				</div>
+				
+			</div>
+			
+			<br>
+			
+			<div class = 'dotcontainer'>
+				<span class = 'dot' ></span>
+				<span class = 'dot' ></span>
+				<span class = 'dot' ></span>
+			</div>
+		
+		<script>
+		var paused=false;
+		var indice = 0;
+		mostra_slides();
+		
+		
+		
+		function mostra_slides() {
+			var i;
+			var slides = document.getElementsByClassName("slide");
+			var dots = document.getElementsByClassName("dot");
+			var paused = false;
+			for (i=0;i<slides.length; i++){
+				slides[i].style.display="none";
+			}
+
+			
+			indice = indice+1;
+			
+			if (indice> slides.length) {indice = 1}  ;
+			
+			
+			for (i=0; i<dots.length ; i++){
+				dots[i].className = dots[i].className.replace("ativo","");
+			}
+			
+			slides[indice - 1].style.display = "block";
+			dots[indice-1].className += " ativo";
+			
+			setTimeout(mostra_slides, 3000);
+		
+		}
+		
+		</script>
+	</body>
+</html>
