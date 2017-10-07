@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="estilo_projeto.css">
+		<link rel="stylesheet" type="text/css" href="estilo_geral.css">
+		<link rel="stylesheet" type="text/css" href="estilo_menosindex.css">
+		<title> Jogo de Terminal </title>
+		<meta charset = 'utf-8'>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 		
+		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300" rel="stylesheet">
+		<script type="text/javascript" src="Zoomimagens.js"></script>
+	</head>
+	<body>
+		<div class = 'logo'><a href = 'index.html' style = 'text-decoration:none; color: white;'> Enjinia</a> </div>
+		
+		<div class = 'cab'><a href = 'principal_k.html' style = 'text-decoration:none; color:white;'><b>Kaique Dognani</b> - Engenharia Mecatrônica</a></div>
+		
+		<ul class = 'lista'>
+		  <li class="dropdown listitem">
+			<a href='menusoc_k.html' onmouseover="javascript:void(0)" class="dropbtn link">Âmbito Social</a>
+			<div class="conteudo-dropdown">
+			  <a href="case_k.html" class = 'link'>Case (Debate)</a>
+			  <a href="artigo_k.html" class = 'link'>Mini Artigo Científico</a>
+			</div>
+			  </li>
+		  <li class="dropdown listitem">
+			<a href='menudes_k.html' onmouseover="javascript:void(0)" class="dropbtn link">Design</a>
+			<div class="conteudo-dropdown">
+				<a href="brinquedo_k.html" class = 'link'>Brinquedo Infantil</a>
+				<a href="website_k.html" class = 'link'>Portfólio de Projetos (Website) </a>
+			
+			</div>
+		  </li>
+		  <li class="dropdown listitem">
+			<a href='menumod_k.html' onmouseover="javascript:void(0)" class="dropbtn link">Modelagens</a>
+			<div class="conteudo-dropdown">
+			  <a href="pro1mod_k.html" class = 'link'>Modelagem de um Sistema Populacional</a>
+			  <a href="pro2mod_k.html" class = 'link'>Modelagem de um Sistema Termodinâmico</a>
+			  <a href="pro3mod_k.html" class = 'link'>Modelagem de um Sistema Mecânico</a>
+			</div>
+		  </li>
+		  <li class="dropdown listitem">
+			<a href='menuelet_k.html' onmouseover="javascript:void(0)" class="dropbtn link">Projetos de Eletrônica</a>
+			<div class="conteudo-dropdown">
+			  <a href="estacao_k.html" class = 'link'>Mini Estação Meteorológica</a>
+			  <a href="brinquedo_k.html" class = 'link'>Brinquedo Infantil</a>
+			</div>
+		  </li>
+		  <li class="dropdown listitem">
+			<a href='menuprogr_k.html' onmouseover="javascript:void(0)" class="dropbtn link">Projetos de Programação</a>
+			<div class="conteudo-dropdown">
+			  <a href="inspermon_k.html" class = 'link'>Jogo - Inspermon</a>
+			  <a href="agendamento_k.html" class = 'link'>Sistema de Agendamento de Horário</a>
+			</div>
+		  </li>
+		  <li class = "semdrop listitem" >
+			<a href= 'aluno_k.html' class = 'link' >Sobre Mim</a>
+			</div>
+		  </li>
+		  
+		</ul>
+	
+		<div class = 'escrito'>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+			<p><h1 class = 'titulo'> Inspermon - 1° Semestre (2017.1) </h1></p>
+			<p class = 'disciplina'> Design de Software - Professor Romero T.</p>
+			<img class = 'fotoproj' id = 'myImg' alt = 'Início do jogo' src = 'inspermon2.png'/>
+
+			<p><h4 class = 'divisao'>Proposta:</h4></p>
+			<p class = 'descr'> 
+			Os alunos receberam a proposta de programar, em Python, um jogo de lógica semelhante ao mundialmente famoso Pokemon, 
+			em que mascotes batalham por intermédio de pontos de ataque, defesa e vida, batalhas essas divididas em turnos. Após 
+			a implementação da lógica principal do jogo, sugestões de aprimoramento do programa deveriam também ser implementadas.
+	 
+			</p>
+			
+			<p><h4 class = 'divisao'> Objetivos: </h4> </p>
+			<p class = 'descr'> 
+			Como descrito na Proposta, o jogo seria baseado num jogo mundialmente famoso, no qual o usuário tem sempre que escolher entre 
+			passear com o seu inspermon (e batalhar), ou dormir (ir para o menu principal). Caso o usuário quisesse passear, ele encontraria
+			inspermons adversários aleatoriamente. Quando em batalha, o jogador iria receber a situação de saúde de seu inspermon
+			e a de seu adversário e, por fim, o vencedor da batalha. Caso o jogador perdesse, ele não conseguiria batalhar até restaurar
+			sua vida.
+			
+			
+			</p>
+			<p class = 'descr'> 
+			Outras iterações seriam implementadas ao código do jogo, ao longo do andamento do projeto.
+			</p>
+			
+			<p><h4 class = 'divisao'> Conteúdo trabalhado: </h4> </p>
+			<p class = 'descr'>
+				<ul class='descr'>
+					<li>Lógica e Desenvolvimento de Programas → Python</li> 
+				</ul>
+			</p>
+			
+			<p><h4 class = 'divisao'> Resultados: </h4> </p>
+			<p class = 'descr'>
+			Após implementadas a lógica principal do jogo, os alunos partiram para iterações:
+				<ol class='descr'>
+					<li>A criação de uma Insperdex (o jogador poderá jogar com qualquer Inspermon o qual vencer em batalha);</li>
+					<li>O jogador terá a possibilidade de desistir da batalha em seu turno;</li>
+					<li>O jogador poderá escolher qual o ataque deseja utiliza;</li>
+					<li>Para tornar o jogo mais dinâmico, um elemento sorte afetará a eficácia dos ataques do jogador e do adversário;</li>
+					<li>O jogo poderá ser salvado, assim, o jogador poderá continuar com os mesmos Inspermons, a partir do ponto salvo;</li>
+				</ol>
+			</p>
+			<p class='descr'>
+			Sendo assim, chegou-se a um jogo no qual o usuário poderá realizar os comandos descritos nas seções anteriores e, salvar o seu progresso. 
+					
+			</p>
+			<a class = 'button lerevoltar' href = 'menuprogr_k.html' >Mais projetos de programação</a>
+		</div>	
+	</body>
+</html>
